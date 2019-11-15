@@ -1,6 +1,6 @@
 # rack-benchmarks
 
-Rack-based benchmarks (WIP)
+Ruby benchmarks using Rack (WIP)
 
 ## License
 

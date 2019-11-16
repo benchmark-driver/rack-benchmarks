@@ -33,6 +33,6 @@ warmup(10000)
 if RubyVM::MJIT.enabled?
   RubyVM::MJIT.pause
 end
-Perf.record(count: 5000) do
+Perf.record(count: 7000) do
   run(500000)
 end

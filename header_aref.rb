@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+require 'perf'
 require 'rack/utils'
 
 def run(loop_count, quiet: false)
@@ -18,4 +19,6 @@ run(10000, quiet: true)
 if RubyVM::MJIT.enabled?
   RubyVM::MJIT.pause
 end
-run(8000000)
+Perf.record(count: 5000) do
+  run(8000000)
+end

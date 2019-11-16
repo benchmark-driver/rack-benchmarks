@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+require 'perf'
 require 'rack/utils'
 
 def warmup(loop_count)
@@ -32,4 +33,6 @@ warmup(10000)
 if RubyVM::MJIT.enabled?
   RubyVM::MJIT.pause
 end
-run(500000)
+Perf.record(count: 5000) do
+  run(500000)
+end

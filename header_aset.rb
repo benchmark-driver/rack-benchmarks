@@ -33,6 +33,11 @@ warmup(10000)
 if RubyVM::MJIT.enabled?
   RubyVM::MJIT.pause
 end
-Perf.record(count: 7000) do
-  run(500000)
+if ENV['USER'] == 'root'
+  pid = Process.spawn('operf', '--pid', Process.pid.to_s)
+end
+run(500000)
+if pid
+  Process.kill(:INT, pid)
+  Process.wait(pid)
 end

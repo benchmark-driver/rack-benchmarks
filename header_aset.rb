@@ -34,5 +34,10 @@ if RubyVM::MJIT.enabled?
   RubyVM::MJIT.pause
 end
 Perf.record(call_graph: 'dwarf', count: 7000) do
-  run(500000)
+  run(1000000)
+  run(1000000)
+  run(1000000)
+  run(1000000)
+  run(1000000)
+  run(1000000)
 end

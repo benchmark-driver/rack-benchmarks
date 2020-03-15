@@ -26,6 +26,12 @@ class HeaderHash < Hash
     @names[canonical] = k
     super k, v
   end
+
+  def delete(k)
+    canonical = k.downcase
+    result = super @names.delete(canonical)
+    result
+  end
 end
 
 def warmup(loop_count)

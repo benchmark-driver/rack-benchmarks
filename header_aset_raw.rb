@@ -69,6 +69,11 @@ if RubyVM::MJIT.enabled?
   RubyVM::MJIT.pause
 end
 
+if ENV.key?('PERF')
+  require 'shellwords'
+  pid = Process.spawn('perf', *ENV['PERF'].shellsplit, '-p', Process.pid.to_s)
+end
+
 run(1000000)
 run(1000000)
 run(1000000)
@@ -77,3 +82,8 @@ run(1000000)
 run(1000000)
 run(1000000)
 run(1000000)
+
+if pid
+  Process.kill(:INT, pid)
+  Process.wait(pid)
+end

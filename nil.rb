@@ -1,0 +1,33 @@
+def a
+  nil
+end
+
+def test(last)
+  i = 0
+  while i < last
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    i += 1
+  end
+end
+
+test(100)
+if RubyVM::MJIT.enabled?
+  RubyVM::MJIT.pause
+  test(1)
+  RubyVM::MJIT.resume
+  RubyVM::MJIT.pause
+end
+
+before = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+test(3000000)
+after = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+puts "==> #{after-before}"

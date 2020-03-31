@@ -15,11 +15,110 @@ def test(last)
     a; a; a; a; a; a; a; a; a; a;
     a; a; a; a; a; a; a; a; a; a;
     a; a; a; a; a; a; a; a; a; a;
+
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
+    a; a; a; a; a; a; a; a; a; a;
     i += 1
   end
 end
 
-test(100)
+test(10)
 if RubyVM::MJIT.enabled?
   RubyVM::MJIT.pause
   test(1)
@@ -28,6 +127,6 @@ if RubyVM::MJIT.enabled?
 end
 
 before = Process.clock_gettime(Process::CLOCK_MONOTONIC)
-test(3000000)
+test(300000)
 after = Process.clock_gettime(Process::CLOCK_MONOTONIC)
 puts "==> #{after-before}"

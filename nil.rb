@@ -127,6 +127,18 @@ if RubyVM::MJIT.enabled?
 end
 
 before = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+
+if ENV.key?('PERF')
+  require 'shellwords'
+  pid = Process.spawn('perf', *ENV['PERF'].shellsplit, '-p', Process.pid.to_s)
+end
+
 test(300000)
+
+if pid
+  Process.kill(:INT, pid)
+  Process.wait(pid)
+end
+
 after = Process.clock_gettime(Process::CLOCK_MONOTONIC)
 puts "==> #{after-before}"

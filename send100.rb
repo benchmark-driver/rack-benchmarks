@@ -39,6 +39,9 @@ end
 test(10000)
 if RubyVM::MJIT.enabled?
   RubyVM::MJIT.pause
+  test(1)
+  RubyVM::MJIT.resume
+  RubyVM::MJIT.pause
 end
 
 before = Process.clock_gettime(Process::CLOCK_MONOTONIC)
@@ -48,7 +51,7 @@ if ENV.key?('PERF')
   pid = Process.spawn('perf', *ENV['PERF'].shellsplit, '-p', Process.pid.to_s)
 end
 
-test(2000000)
+test(500000)
 
 if pid
   Process.kill(:INT, pid)
